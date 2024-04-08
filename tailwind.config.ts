@@ -8,10 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        workSans: ['Work Sans', 'sans-serif'], 
+      },
+      width: {
+        '37': '9.1rem',
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'convert_currency_educational_component_background': "url('../assets/img/background_main.png')",
       },
     },
   },
