@@ -12,6 +12,24 @@ body {
   background: var(--background-color);
 }
 
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: none; 
+  background-color: transparent; 
+}
+
+input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

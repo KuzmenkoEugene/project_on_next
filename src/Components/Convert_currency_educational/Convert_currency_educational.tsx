@@ -2,7 +2,7 @@ import Image from "next/image";
 import Button from "../Button/Button";
 import mastercard_card_img from "../../assets/img/mastercard-card_img.png";
 
-export default function Convert_currency_educational_component() {
+export default function Convert_currency_educational() {
   return (
     <div className="flex justify-center justify-between pl-[250px] pr-[250px] w-[1366px] h-[400px] shrink-0 bg-convert_currency_educational_component_background">
       <div className="w-[311px] mt-[85px]">
@@ -15,7 +15,7 @@ export default function Convert_currency_educational_component() {
         <Button
           text={"Конвертер валют"}
           additionalStyles={
-            "w-[234px] h-[53px] text-[#707C87] bg-[#F6F7FF] leading-normal mt-[29px]"
+            "w-[234px] h-[53px] text-lg text-[#707C87] bg-[#F6F7FF] leading-normal mt-[29px]"
           }
         />
       </div>

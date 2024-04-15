@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        workSans: ['Work Sans', 'sans-serif'], 
+        'workSans': ['Work Sans', 'sans-serif'], 
       },
       width: {
         '37': '9.1rem',

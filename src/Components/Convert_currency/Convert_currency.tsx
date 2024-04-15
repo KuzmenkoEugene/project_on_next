@@ -2,7 +2,7 @@ import Image from "next/image";
 import Button from "../Button/Button";
 import converter_img from "../../assets/img/converter_img.jpg";
 
-export default function Convert_currency_component() {
+export default function Convert_currency() {
   return (
     <div className="flex justify-center justify-between items-center pl-[250px] pr-[250px] w-[1366px] h-[554px] shrink-0">
       <div>
@@ -16,7 +16,7 @@ export default function Convert_currency_component() {
         <Button
           text={"Конвертувати валюту"}
           additionalStyles={
-            "w-[251px] h-[60px] text-[#F6F7FF] bg-[#2C36F2] leading-6 mt-[26px]"
+            "w-[251px] h-[60px] text-lg text-[#F6F7FF] bg-[#2C36F2] leading-6 mt-[26px]"
           }
         />
       </div>

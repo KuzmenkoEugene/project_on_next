@@ -6,7 +6,7 @@ interface ButtonProps {
 const Button: React.FC<ButtonProps> = ({ text, additionalStyles }) => {
   return (
     <button
-      className={`font-medium not-italic text-center text-lg cursor-pointer rounded ${additionalStyles}`}
+      className={`font-medium not-italic text-center cursor-pointer rounded-[4px] ${additionalStyles}`}
     >
       {text}
     </button>
