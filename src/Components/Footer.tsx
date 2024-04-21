@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Logo_and_title } from "./Logo_and_title/Logo_and_title";
 import Menu from "./Menu/Menu";
-import menuArray from "@/constants/menuData";
+import {menuArray} from "@/constants/menuData";
 import social_networks_icon from "./../assets/icons/social_networks_icon.svg";
 import phone_icon from "./../assets/icons/phone_icon.svg";
 import handset_icon from "./../assets/icons/phone_number_icon.svg";

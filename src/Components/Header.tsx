@@ -1,5 +1,5 @@
 import Menu from "./Menu/Menu";
-import menuArray from "@/constants/menuData";
+import {menuArray} from "@/constants/menuData";
 import { Logo_and_title } from "./Logo_and_title/Logo_and_title";
 import Log_in from "./Log_in/Log_in";
 

@@ -1,4 +1,4 @@
-const menuArray = [
+export const menuArray = [
   {
     href: "./",
     nameItem: "Послуги",
@@ -17,4 +17,5 @@ const menuArray = [
   },
 ];
 
-export default menuArray
+export const BANK_DATA = "https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange"
+
